@@ -202,6 +202,6 @@ def startGame(p1, p2):
 
     root.mainloop()
 if __name__ == "__main__":
-    p1 = Player(1,1)
+    p1 = Player(1,2)
     p2 = Player(2,1)
     startGame(p1,p2)

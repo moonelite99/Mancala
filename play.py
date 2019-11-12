@@ -217,7 +217,7 @@ class Player:
             val, move = self.minimaxMove(board, self.ply)
             print (board.scoreCups)
             print ("score is")
-            print (self).score(board)
+            print ((self).score(board))
             print ("chose move", move, " with value", val)
             return move
         elif self.type == self.ABPRUNE:
